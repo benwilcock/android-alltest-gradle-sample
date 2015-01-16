@@ -1,0 +1,1 @@
+# android-alltest-gradle-sample
