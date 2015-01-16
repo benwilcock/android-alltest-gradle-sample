@@ -1,0 +1,25 @@
+evaluationDependsOn(":app")
+
+apply plugin: 'java'
+
+dependencies {
+    def androidModule = project(':app')
+
+    testCompile project(path: ':app', configuration: 'debugCompile')
+
+    def debugVariant = androidModule.android.applicationVariants.find({it.name == 'debug'})
+    testCompile debugVariant.javaCompile.classpath
+    testCompile debugVariant.javaCompile.outputs.files
+    testCompile files(androidModule.plugins.findPlugin("com.android.application").getBootClasspath())
+
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.robolectric:robolectric:2.4'
+}
+
+tasks.withType(Test) {
+    scanForTestClasses = false
+    include "**/*Should.class"
+    include "**/*Test.class"
+    include "**/*Tests.class"
+    exclude "**/*IT.class"
+}
