@@ -1,21 +1,29 @@
 package com.soagrowers.android;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 
-public class MyActivity extends Activity {
+public class MyActivity extends ActionBarActivity {
 
   TextView my_hello_text_view;
+  Button mClickMeBtn;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_my);
     my_hello_text_view = (TextView) findViewById(R.id.my_hello_text_view);
+    mClickMeBtn = (Button) findViewById(R.id.clickMeBtn);
+  }
+
+  public void clickMeBtnPressed(View view) {
+    my_hello_text_view.setText(getString(R.string.ok_thanks));
   }
 
 

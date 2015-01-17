@@ -1,10 +1,11 @@
 evaluationDependsOn(":app")
 
+
 apply plugin: 'java'
 
 dependencies {
-    def androidModule = project(':app')
 
+    def androidModule = project(':app')
     testCompile project(path: ':app', configuration: 'debugCompile')
 
     def debugVariant = androidModule.android.applicationVariants.find({it.name == 'debug'})
@@ -12,8 +13,8 @@ dependencies {
     testCompile debugVariant.javaCompile.outputs.files
     testCompile files(androidModule.plugins.findPlugin("com.android.application").getBootClasspath())
 
-    testCompile 'junit:junit:4.11'
-    testCompile 'org.robolectric:robolectric:2.4'
+    compile 'junit:junit:4.11'
+    compile 'org.robolectric:robolectric:2.4'
 }
 
 tasks.withType(Test) {
