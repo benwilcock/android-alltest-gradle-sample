@@ -57,7 +57,7 @@ This stuff is brittle! It's a very volatile set of tools we're using.
 
 I'm not sure anyone other than Google can improve the situation regarding Android testing if I'm brutally honest. It's a bit of a 'dogs dinner'.
 
-On the plus side, I haven't used any additional gradle plugins. I've seen and tries lots but they can go out of date quite quickly
+On the plus side, I haven't used any additional gradle plugins. I've seen and tried lots but they can go out of date quite quickly.
 
 Acknowledgements
 ----------------
