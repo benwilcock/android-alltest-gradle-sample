@@ -7,11 +7,11 @@ import com.soagrowers.android.MyActivity;
 
 import static org.assertj.android.api.Assertions.assertThat;
 
-public class MyActivityIT extends ActivityInstrumentationTestCase2<MyActivity> {
+public class MyActivityInstrumentation extends ActivityInstrumentationTestCase2<MyActivity> {
 
   private MyActivity mActivity;
 
-  public MyActivityIT() {
+  public MyActivityInstrumentation() {
     super(MyActivity.class);
   }
 

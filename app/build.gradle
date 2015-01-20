@@ -26,4 +26,5 @@ dependencies {
     compile project(':core')
     compile 'com.squareup.assertj:assertj-android:1.0.0'
     compile 'com.android.support:appcompat-v7:21.0.3'
+    androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.2.1'
 }
