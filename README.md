@@ -1,4 +1,5 @@
-This shows a simple Android-Gradle template which demonstrates and configures Instrumentation Tests, Robolectric Tests and Unit Tests together in one project.
+This shows a simple Android-Gradle template which demonstrates and configures
+Robolectric, Robotium, Instrumentation and JUnit Tests together in one project.
 
 Project Structure
 -----------------
