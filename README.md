@@ -5,7 +5,7 @@ This project provides a Gradle project template for an Android project which int
 Background
 ----------
 
-I develop the [TripComputer Android App](https://play.google.com/store/apps/details?id=com.soagrowers.android.tripcomputer) but testing it using the standard Instrumentation framework is really slow because it demands either a connected device or an emulator to be running upon which it runs the tests.
+I develop the [TripComputer Android App](https://play.google.com/store/apps/details?id=com.soagrowers.android.tripcomputer) but I find testing it using the standard Instrumentation framework is really slow because it demands either a connected device or an emulator to be running upon which it runs the tests.
 
 Slow testing cycles are a disincentive to TDD, so most tutorials bestow the virtues of switching to the [Robolectric](https://github.com/robolectric/robolectric) framework when unit testing Android apps because it 'simulates' the android SDK in a standard Java VM. This allows your Android tests to be executed outside of the emulator/device. It also allows the use of JUnit v4 syntax rather than the older JUnit v3 required by the built in Android Instrumentation testing framework.
 
@@ -17,7 +17,7 @@ Over the past year or so it's been a slowly improving picture, but now Android S
 
 The [android-alltest-gradle-sample](https://github.com/benwilcock/android-alltest-gradle-sample) project on GitHub  is my attempt to create a template project that can be used as a starting point for anyone who wishes to use these best of breed Android Testing tools together with Gradle and Android Studio in one project.
 
-To use the sample, simply clone the repository (or download a ZIP), import into Android Studio, test it and then start running code. Check out the Acknowledgements section in the readme for further help, tips and advice (including how to execute your Robolectric tests from within Android Studio as well as from the cmdline).
+To use the sample, simply clone the repository (or download a ZIP), import into Android Studio, test it and then start running code. Check out the [Acknowledgements](https://github.com/benwilcock/android-alltest-gradle-sample#acknowledgements) section in the readme for further help, tips and advice (including how to execute your Robolectric tests from within Android Studio as well as from the cmdline).
 
 Project Structure
 -----------------
