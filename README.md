@@ -95,3 +95,15 @@ http://blog.blundell-apps.com/how-to-run-robolectric-junit-tests-in-android-stud
 I had lots of issues with AppCompat which took a while to fix, but @sjorsgeelen and @loeschg had the right answer here:
 
 https://github.com/robolectric/robolectric/issues/1334
+
+About the Author
+----------------
+
+Ben Wilcock is the developer of [TripComputer](https://play.google.com/store/apps/details?id=com.soagrowers.android.tripcomputer) , the only distance tracking app for Android with a battery-saving LOW POWER mode. It’s perfect for cyclists, runners, walkers, hand-gliders, pilots and drivers. It’s free! Download it from the Google Play Store now:-
+
+[Get Trip Computer on Google Play](https://play.google.com/store/apps/details?id=com.soagrowers.android.tripcomputer)
+
+[Blog](http://benwilcock.wordpress.com)
+[Website](http://www.soagrowers.com)
+[Twitter](https://twitter.com/benbravo73)
+[LinkedIn](http://uk.linkedin.com/in/benwilcock)
