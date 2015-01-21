@@ -103,12 +103,4 @@ Ben Wilcock is the developer of [TripComputer](https://play.google.com/store/app
 
 [Get Trip Computer on Google Play](https://play.google.com/store/apps/details?id=com.soagrowers.android.tripcomputer)
 
-You can follow me here:-
-
-[Blog](http://benwilcock.wordpress.com)
-
-[Website](http://www.soagrowers.com)
-
-[Twitter](https://twitter.com/benbravo73)
-
-[LinkedIn](http://uk.linkedin.com/in/benwilcock)
+You can follow Ben on his [Blog](http://benwilcock.wordpress.com), [Website](http://www.soagrowers.com), [Twitter](https://twitter.com/benbravo73) or [LinkedIn](http://uk.linkedin.com/in/benwilcock)
