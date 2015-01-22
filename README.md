@@ -54,9 +54,18 @@ Running Tests
 Tests can be run using one of the following (or combinations thereof):
 
 ```
+./gradlew clean build connectedCheck
+```
+
+Known Issues
+------------
+
+Robolectric isn't fully suporting AppCompat v21 yet, and strange random failures can affect the smooth running of the build if you choose to 'clean' it. There is more information on [Stackoverflow here](http://stackoverflow.com/questions/27574165/classcastexception-noclassdeffounderror-cannot-be-cast-to-runtimeexception). The suggested workaround is to separate the gradle commands as follows...
+
+```
+./gradlew clean
+./gradlew assemble
 ./gradlew test
-./gradlew check
-./gradlew build
 ./gradlew connectedCheck
 ```
 

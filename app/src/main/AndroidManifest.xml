@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- If you change the package - don't forget to change the gradle.build and RobolectricGradleTestRunner! -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.soagrowers.android" >
 

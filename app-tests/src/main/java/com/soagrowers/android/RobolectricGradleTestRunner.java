@@ -24,6 +24,7 @@ public class RobolectricGradleTestRunner extends RobolectricTestRunner {
       Fs.fileFromPath(resDir),
       Fs.fileFromPath(assetsDir));
 
+	// If you change the package - don't forget to change the build.gradle and the AndroidManifest.xml
     manifest.setPackageName("com.soagrowers.android");
     // Robolectric is already going to look in the  'app' dir ...
     // so no need to add to package name
