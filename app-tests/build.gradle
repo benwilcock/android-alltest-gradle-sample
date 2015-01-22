@@ -1,6 +1,5 @@
 evaluationDependsOn(":app")
 
-
 apply plugin: 'java'
 
 dependencies {
@@ -15,6 +14,11 @@ dependencies {
 
     compile 'junit:junit:4.11'
     compile 'org.robolectric:robolectric:2.4'
+	
+	/*
+	Note that Robolectric 2.4 and AppCompat v21 are not folly compatible with each other. This can cause random build failures
+	especially if the 'clean' command was used. See the known issues in the README.
+	*/
 }
 
 tasks.withType(Test) {
